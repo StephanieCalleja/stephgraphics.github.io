@@ -9,7 +9,7 @@
 
 <body>
     <h1>Register</h1>
-    <form>
+    <form action="http://www.google.com">
         <label for="first-name">First Name:</label>
         <input id="first-name" name="first-name" type="text" placeholder="Stephanie" required />
 
@@ -25,15 +25,12 @@
             <label for="other">Other</label>
             <input id="other" name="Gender" type="radio" value="other" /></p>
 
-    </form>
-    <form action="http://www.google.com">
-        <label for="email">Email:</label>
-        <input id="email" name="email" type="text" required>
-        <label for="password">Password</label>
-        <input id="password" name="password" type="text" maxlength="18" required>
 
-    </form>
-    <form>
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email" placeholder="Email" required>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" maxlength="18" placeholder="Password" required>
+        <br>
         <label for="select-choice">Birthday:</label>
         <select name="select-choice" id="select-choice">
             <option value="0" selected="" disabled="">Month</option>
@@ -105,13 +102,14 @@
             <option value="1999">1999</option>
 
         </select>
-    </form>
-    <form>
+        </br>
+
+        <br>
         <label for="TermsandConditions">I agree with the Terms and Conditions</label>
         <input id="TermsandConditions" type="checkbox" name="TermsandConditions" value="accepted">
-    </form>
-    <form>
         <input type="Submit">
+        </br>
+    </form>
     </form>
 
 
